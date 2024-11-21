@@ -1,0 +1,56 @@
+* Chuck Norris API Wrapper in Clojure
+
+This is a simple wrapper for the Chuck Norris API, created to help practice working with Clojure. The wrapper provides an easy way to access Chuck Norris jokes and facts through the API. The intention is to bring the data of the API into Clojure data-types for interrogation. 
+
+** Planned Features
+
+- [ ] Fetch random Chuck Norris jokes and return it as a string
+- [ ] Fetch jokes by category and return the jokes as a list
+- [ ] A list of possible categories
+- [ ] A list of jokes based on a free text query
+
+** Requirements
+
+- [[https://clojure.org/][Clojure]] (version 1.10 or later)
+- [[https://leiningen.org/][Leiningen]] (for project management)
+
+** Installation
+
+1. Clone the repository:
+
+   #+BEGIN_SRC bash
+   git clone https://github.com/yourusername/chuck-norris-api-wrapper.git
+   cd chuck-norris-api-wrapper
+   #+END_SRC
+
+2. Install dependencies:
+
+   #+BEGIN_SRC bash
+   lein deps
+   #+END_SRC
+
+** Usage
+
+To use the wrapper, you can require the main namespace in your Clojure project and call the provided functions. Here’s a quick example:
+
+#+BEGIN_SRC clojure
+;To be completed
+#+END_SRC
+
+** API Reference
+
+**To be completed**
+
+** Contributing
+
+Feel free to submit issues or pull requests if you have suggestions or improvements!
+
+** License
+
+This project is licensed under the GNU General Public License v3.0. You can redistribute it and/or modify it under the terms of the License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html) for more details.
+
+** Acknowledgements
+
+- [[https://api.chucknorris.io/][Chuck Norris API]] for providing the jokes and facts.

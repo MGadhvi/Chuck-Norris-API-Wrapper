@@ -4,12 +4,16 @@
 
 (def url "https://api.chucknorris.io/jokes/")
 
-(defn get-joke []
+(defn get-joke [] 
   "Returns a random Chuck Norris joke."
   (let [response (client/get (str url "random"))
         body (:body response)
         joke (json/parse-string body true)]
     (:value joke)))
+
+(defn get-jokes [search]
+  "Returns a list of jokes based on the search string"
+  (json/parse-string (:body (client/get (str url "search?query=" search)))))
 
 (defn get-categories []
   "Returns a list of the possible joke categories"
